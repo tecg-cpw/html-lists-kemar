@@ -1,0 +1,141 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,700,900|Titillium+Web:400,700,900';
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*********************/
+/***   END RESET   ***/
+/*********************/
+html{
+	background-color: #252931;
+    font: normal 62.5%/1.5 Raleway, Helvetica, Arial, sans-serif;
+    padding: 2em;
+}
+body{
+	font-size:1.8em;
+	width: 23em;
+	background-color: white;
+	margin:0 auto;
+	border: 1px solid white;
+	padding: 2em;
+	border-radius: 1em;
+	color: #aaabad;
+}
+img{
+	-webkit-clip-path: circle(105px at center);
+	width: 100%;
+}
+h1{
+	font: bold 2em 'Titillium Web', Helvetica, Arial, sans-serif;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: #252931;
+	margin:0.5em 0 1em;
+}
+li:first-child{
+	border-radius: 1em 1em 0em 0em;
+}
+li:last-child{
+	border-radius: 0em 0em 1em 1em;	
+}
+li{
+	background-color: #252931;
+	padding: 1em;
+	transition: all 0.2s ease;
+	position: relative;
+}
+li:hover{
+	transform: scale(1.02);
+	font-weight: bold;
+	padding-left: 2.5em;
+	position: relative;
+}
+li:before{
+	content:"";
+	background-image:url('../img/dnb.png');
+	display: block;
+	height: 32px;
+	width: 32px;
+	background-size:32px 32px;
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	opacity: 0;
+	transform: scale(0);
+	transition: all 0.2s ease;
+}
+li:hover:before{
+	opacity: 1;
+	transform: scale(1);
+}
+.dnb{
+	background-color:#76DAB2;
+	color:white; 
+}
+.metal{
+	background-color:#32334B;
+	color:white; 
+}
+.metal:before{
+	background-image:url('../img/metal.png');
+}
+.pop{
+	background-color: #F3458D;
+	color: white;
+}
+.pop:before{
+	background-image:url('../img/pop.png');
+}
+.rock{
+	background-color: #f1b136;
+	color: white;
+}
+.rock:before{
+	background-image:url('../img/rock.png');
+}
