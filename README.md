@@ -1,6 +1,6 @@
 # html-listes-kemar
 
-> HTML exercise given at HEPL
+> HTML exercise about unordered lists
 
 * * *
 
