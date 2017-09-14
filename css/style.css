@@ -100,12 +100,12 @@ li:before{
 	content:"";
 	background-image:url('../img/dnb.png');
 	display: block;
-	height: 32px;
-	width: 32px;
-	background-size:32px 32px;
+	height: 2em;
+	width: 2em;
+	background-size:2em 2em;
 	position: absolute;
-	left: 10px;
-	top: 12px;
+	left: 0.25em;
+	top: 0.5em;
 	opacity: 0;
 	transform: scale(0);
 	transition: all 0.2s ease;
