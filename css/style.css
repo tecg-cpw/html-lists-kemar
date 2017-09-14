@@ -139,3 +139,25 @@ li:hover:before{
 .rock:before{
 	background-image:url('../img/rock.png');
 }
+
+@media only screen and (max-device-width: 768px){
+	body{
+		font-size: 4em;
+		width: 90%;
+		padding: 1em;
+	}
+	img{
+		-webkit-clip-path: circle(215px at center);
+	}
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	body{
+		font-size: 4em;
+		width: 90%;
+		padding: 1em;
+	}
+	img{
+		-webkit-clip-path: circle(215px at center);
+	}
+}
