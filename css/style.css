@@ -69,7 +69,9 @@ body{
 }
 img{
 	-webkit-clip-path: circle(105px at center);
+	clip-path: circle(105px at center);
 	width: 100%;
+	height:auto;
 }
 h1{
 	font: bold 2em 'Titillium Web', Helvetica, Arial, sans-serif;
