@@ -32,7 +32,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 1. avant tout, et avant de commencer à taper du code dans un fichier, prenez le temps d’analyser le contenu fourni pour identifier les balises à utiliser. Si vous hésitez, vous pouvez également consulter l’aide fournie dans la section **«&nbsp;Aides&nbsp;»** ci-dessous&nbsp;;
 
-2. créer le fichier HTML et y placer les balises de départ qui fournissent un template de base complet, ce qui implique notamment de bien indiquer que le document est en français et aussi&nbsp;:
+2. créer le fichier HTML et y placer les balises de départ qui fournissent un template de base complet, ce qui implique notamment de bien indiquer que le document est en français, et aussi&nbsp;:
     - au niveau de l'en-tête du document, de bien définir les méta-informations grâce aux balises `meta`, `title`et `link` appropriées (si vous avez besoin d’aide, voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous) pour&nbsp;: 
         * déclarer correctement l’encodage des caractères utilisé (pour ne pas avoir de problème d’affichage des caractères spéciaux et accentués dans le navigateur)&nbsp;;
         * renseigner que vous êtes l’auteur du document&nbsp;;
