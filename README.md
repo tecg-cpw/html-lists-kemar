@@ -16,9 +16,9 @@
 
 ## Kemar
 
-Cette page présente le top 5 mlusical de Kemar.  
+Cette page présente le top 5 musical de Kemar.  
 
-Votre mission est
+Votre mission est :
 
 1. de créer le fichier **index.html** qui permet d’afficher ce contenu dans un navigateur web&nbsp;;
 2. de valider votre code HTML dans un validateur&nbsp;; 
@@ -40,7 +40,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
         * prévoir que, si on recherche votre page sur un moteur de recherche comme Google, le moteur de recherche affiche la description suivante pour votre page dans la page qui présente les résultats de recherche&nbsp;: «&nbsp;Découvrez le top 5 musical de Kemar&nbsp;»&nbsp;;
         * faire en sorte que le titre du document qui s’affiche dans l’onglet du navigateur soit «&nbsp;Kemar&nbsp;»&nbsp;;
         * lier la feuille de style à votre page HTML&nbsp;;
-    - au niveau du coprs du document, de baliser, en utilisant les balises et les attributs HTML corrects&nbsp; (voir la section **«&nbsp;Aides&nbsp;»** ci-dessous)&nbsp;:
+    - au niveau du corps du document, de baliser, en utilisant les balises et les attributs HTML corrects&nbsp; (voir la section **«&nbsp;Aides&nbsp;»** ci-dessous)&nbsp;:
          * l’image (afficher l’image représentée dans le fichier `kemar.jpg` avec, comme texte alternatif au cas où elle ne s’affiche pas, «&nbsp;Kemar en chemise bleue qui fait des oreilles de lapin avec ses mains&nbsp;»)&nbsp;;
          * le titre principal&nbsp;;
          * la liste&nbsp;;
@@ -60,15 +60,15 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 #### 3. 1. Liste des balises
 
-Étant donné que vous n’avez peut-être pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `title`, `link` (avec les attributs `rel` et `href`), `body`, `h1`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `ol`, `li`. Consultez la [Référence des éléments HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element) (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous) ainsi que votre «&nbsp;HTML 5 Pocket Reference&nbsp;» pour vous aider à décider quelle balise et quels attributs utiliser pour quel usage et vérifiez à la fin de l’exercice que vous avez bien utilisé toutes les balises de cette liste.
+Étant donné que vous n’avez peut-être pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l’attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `title`, `link` (avec les attributs `rel` et `href`), `body`, `h1`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `ol`, `li`. Consultez la [Référence des éléments HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element) (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous) ainsi que votre «&nbsp;HTML 5 Pocket Reference&nbsp;» pour vous aider à décider quelle balise et quels attributs utiliser pour quel usage et vérifiez à la fin de l’exercice que vous avez bien utilisé toutes les balises de cette liste.
 
 #### 3. 2. Rappel concernant les commentaires en HTML
 
 - les commentaires en HTML s’indiquent entre les symboles `<!--` (marqueur de début de commentaire) et `-->` (marqueur de fin de commentaire). Tout ce qui se trouve entre ces deux marqueurs est ignoré par le navigateur, ce sont des textes qui ne sont ni affichés dans la page, ni interprétés par le navigateur. Ils sont réservés à l’usage exclusif du développeur. Vous pouvez y indiquer tout ce qui vous aide à comprendre, à organiser ou à relire votre code. Voici un exemple :
 
 ```html
-    <!-- balise meta pour l'encodage des caractères --> 
-    <meta charset="utf-8"> <!--  déclare au navigateur que l'encodage des caractères du document courant
+    <!-- balise meta pour l’encodage des caractères --> 
+    <meta charset="utf-8"> <!--  déclare au navigateur que l’encodage des caractères du document courant
                                  est réalisé en UTF-8 --> 
 ```
 
@@ -100,7 +100,7 @@ Il vous suffit de changer la langue du document (de `en` en `fr`) et de complét
 > Ces ressources sont à consulter impérativement, elles font partie de la matière de cours
 
 - [Référence des éléments HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element) : Une documentation qui reprend la liste des balises et leur sens, facile, en français issue du *MDN Web Docs* de Mozilla, une excellente référence&nbsp;;
-- [HTML Living Standard](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element) : **LA** spécification officielle du w3c/whatwg pour le langage HTML, c’est elle qui détient la vérité et qui fait loi en cas de doute. Il s’agit d’une documentation plus technique, en anglais, très complète, qui comporte une page par balise où on trouve toutes les informations nécessaires (sens, règles de grammaire, attributs, …). Votre «&nbsp;*Précis et Concis*&nbsp;» est une version imprimée de ce site&nbsp;; 
+- [HTML Living Standard](https://html.spec.whatwg.org/#toc-semantics) : **LA** spécification officielle du w3c/whatwg pour le langage HTML, c’est elle qui détient la vérité et qui fait loi en cas de doute. Il s’agit d’une documentation plus technique, en anglais, très complète, qui comporte une page par balise où on trouve toutes les informations nécessaires (sens, règles de grammaire, attributs, …). Votre «&nbsp;*Précis et Concis*&nbsp;» est une version imprimée de ce site&nbsp;; 
 - [Comment indiquer la langue d’un contenu en HTML&nbsp;?](https://www.alsacreations.com/astuce/lire/1151-langue-du-contenu.html) : Aidez-vous de cette ressource pour savoir où et comment utiliser l’attribut lang dans les différents cas de figure&nbsp;;
 - [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp) : Aidez-vous de cette ressource pour trouver quel est le code de langue à utiliser pour remplir correctement la valeur de l'attribut lang&nbsp;;
 - [À quoi servent les balises META ?](https://www.alsacreations.com/article/lire/628-balises-meta.html) : Aidez-vous de cette ressource pour correctement baliser les méta-informations à indiquer dans l’en-tête de votre document.
