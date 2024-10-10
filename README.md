@@ -41,7 +41,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
         * faire en sorte que le titre du document qui s’affiche dans l’onglet du navigateur soit «&nbsp;Kemar&nbsp;»&nbsp;;
         * lier la feuille de style à votre page HTML&nbsp;;
     - au niveau du corps du document, de baliser, en utilisant les balises et les attributs HTML corrects&nbsp; (voir la section **«&nbsp;Aides&nbsp;»** ci-dessous)&nbsp;:
-         * l’image (afficher l’image représentée dans le fichier `kemar.jpg` avec, comme texte alternatif au cas où elle ne s’affiche pas, «&nbsp;Kemar en chemise bleue qui fait des oreilles de lapin avec ses mains&nbsp;»)&nbsp;;
+         * l’image (afficher l’image représentée dans le fichier `kemar.webp` avec, comme texte alternatif au cas où elle ne s’affiche pas, «&nbsp;Kemar en chemise bleue qui fait des oreilles de lapin avec ses mains&nbsp;»)&nbsp;;
          * le titre principal&nbsp;;
          * la liste&nbsp;;
     - ouvrir le fichier dans le navigateur Firefox, observer le résultat&nbsp;;
