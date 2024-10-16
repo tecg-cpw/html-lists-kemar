@@ -61,23 +61,21 @@ table {
 html {
     background-color: #252931;
     font: normal 24px/1.5 Raleway, sans-serif;
+    padding: 2rem
 }
 
-main {
+body {
     min-width: 20rem;
-    width:60vw;
+    width: 60vw;
     max-width: 25rem;
+    margin: 0 auto;
     background-color: white;
-    border: 1px solid white;
-    margin: 2rem auto;
     padding: 1.5rem;
     border-radius: 1rem;
-    color: #aaabad;
-    text-align: center;
-}
-
-div:has(> img) {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
 }
 
 img {
@@ -91,6 +89,10 @@ h1 {
     text-align: center;
     color: #252931;
     margin: 0.5rem 0 1rem;
+}
+
+ol {
+    width: 100%;
 }
 
 li:first-child {
