@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,700,900|Titillium+Web:400,700,900';
+@import 'https://fonts.bunny.net/css?family=Raleway:400,700|Titillium+Web:700';
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -60,42 +60,45 @@ table {
 /*********************/
 html {
     background-color: #252931;
-    font: normal 62.5%/1.5 Raleway, Helvetica, Arial, sans-serif;
-    padding: 2em;
+    font: normal 24px/1.5 Raleway, sans-serif;
 }
 
-body {
-    font-size: 1.8em;
-    width: 23em;
+main {
+    min-width: 20rem;
+    width:60vw;
+    max-width: 25rem;
     background-color: white;
-    margin: 0 auto;
     border: 1px solid white;
-    padding: 2em;
-    border-radius: 1em;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
     color: #aaabad;
     text-align: center;
 }
 
+div:has(> img) {
+    width: 100%;
+}
+
 img {
-    -webkit-clip-path: circle(105px at center);
-    clip-path: circle(105px at center);
-    display: inline-block;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
 }
 
 h1 {
-    font: bold 2em 'Titillium Web', Helvetica, Arial, sans-serif;
-    letter-spacing: -0.02em;
+    font: bold 1.8rem 'Titillium Web', sans-serif;
     text-align: center;
     color: #252931;
-    margin: 0.5em 0 1em;
+    margin: 0.5rem 0 1rem;
 }
 
 li:first-child {
-    border-radius: 1em 1em 0em 0em;
+    border-radius: 1rem 1rem 0 0;
 }
 
 li:last-child {
-    border-radius: 0em 0em 1em 1em;
+    border-radius: 0 0 1rem 1rem;
 }
 
 li {
@@ -109,7 +112,6 @@ li:hover {
     transform: scale(1.02);
     font-weight: bold;
     padding-left: 2.5em;
-    position: relative;
 }
 
 li:before {
@@ -162,29 +164,4 @@ li:hover:before {
 
 .rock:before {
     background-image: url('../img/rock.png');
-}
-
-@media only screen and (max-device-width: 768px) {
-    body {
-        font-size: 4em;
-        width: 90%;
-        padding: 1em;
-    }
-
-    img {
-        -webkit-clip-path: circle(215px at center);
-    }
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    body {
-        font-size: 4em;
-        width: 90%;
-        padding: 1em;
-    }
-
-    img {
-        -webkit-clip-path: circle(215px at center);
-    }
 }
